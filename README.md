@@ -28,4 +28,27 @@ Remember, angular-cli is a fork from amber-cli. So, you can run ember serve:
 
 ember serve
 
+## First run
+
+Isn't important, but you migth open the initial page on `http://localhost:4200/`
+
  :eyes:
+
+## The main page
+
+Open the file `app/templates/application.hbs` in your favorite editor (like Atom) and comment the line `{{welcome-page}}` like this:
+
+`{{!welcome-page}}`
+
+Now, you can put your code inside that. On this case, I wrote the name of project:
+
+`<h1>Project Tracking</h1>`
+
+Creating a Project's menu:
+
+`ember generate route projects`
+`ember generate route appointments`
+
+## Also...
+
+clone this project to see more details.
